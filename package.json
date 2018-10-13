@@ -78,7 +78,8 @@
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx}"
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx}",
+      "<rootDir>/testing/**/?(*.)(spec|test).{js,jsx}"
     ],
     "testEnvironment": "jsdom",
     "testURL": "http://localhost",
